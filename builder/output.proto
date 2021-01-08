@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+package platform;
+
+option go_package = "github.com/dingoeatingfuzz/waypoint-plugin-pkg/builder";
+
+message Binary {
+  string location = 1;
+}
+
+message Files {
+  string path = 1;
+}

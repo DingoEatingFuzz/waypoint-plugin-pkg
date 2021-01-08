@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+package registry;
+
+option go_package = "github.com/dingoeatingfuzz/waypoint-plugin-pkg/registry";
+
+message Artifact {
+  string source = 1;
+}
