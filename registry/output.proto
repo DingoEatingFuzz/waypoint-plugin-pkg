@@ -7,4 +7,5 @@ option go_package = "github.com/dingoeatingfuzz/waypoint-plugin-pkg/registry";
 
 message Artifact {
   string source = 1;
+  string host = 2;
 }
